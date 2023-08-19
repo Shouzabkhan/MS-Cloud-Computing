@@ -6,13 +6,13 @@ from werkzeug.utils import secure_filename
 from werkzeug.datastructures import  FileStorage
 import os
 
-ACCESS_KEY = "AKIAWORBIWID26ZOLELY"
-SECRET_KEY ="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"
+ACCESS_KEY = ""
+SECRET_KEY =""
 
 
-ENDPOINT="khan124.cwkf6resvh6o.us-east-1.rds.amazonaws.com"
+ENDPOINT="o.us-east-1.rds.amazonaws.com"
 PORT=3306
-USR="admin"
+USR=""
 PASSWORD=""
 DBNAME="default"
 
@@ -48,8 +48,8 @@ def add():
     #filename=imagepath.split("\\")[-1]
 
     client= boto3.client("ses",
-    ACCESS_KEY = "AKIAWORBIWID26ZOLELY",
-    SECRET_KEY ="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",
+    ACCESS_KEY = "",
+    SECRET_KEY ="",
     ACCESS_REGION="us-east-1"
 
 )
