@@ -24,8 +24,8 @@ email="khanshouzab123@gmail.com"
     }
 
     ses_client = boto3.client("ses",
-    ACCESS_KEY = "AKIAWORBIWID26ZOLELY",
-    SECRET_KEY ="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",
+    ACCESS_KEY = "",
+    SECRET_KEY ="",
     ACCESS_REGION="us-east-1"
 )
     ses_client.send_email(
